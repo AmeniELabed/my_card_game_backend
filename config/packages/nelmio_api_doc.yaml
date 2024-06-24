@@ -1,0 +1,9 @@
+nelmio_api_doc:
+  documentation:
+    info:
+      title: 'My Card Game API'
+      description: 'This is the API documentation for My Card Game application.'
+      version: '1.0.0'
+  areas:
+    path_patterns: # an array of regexps (document only routes under /api, except /api/doc)
+      - ^/api(?!/doc$)
